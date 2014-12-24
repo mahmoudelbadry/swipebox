@@ -154,6 +154,7 @@
 				if ( plugin.settings.afterOpen ) {
 					plugin.settings.afterOpen();
 				}
+                this.target.trigger('swipebox-opened');
 			},
 
 			/**
